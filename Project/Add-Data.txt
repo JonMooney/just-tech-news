@@ -1,0 +1,30 @@
+New User
+POST
+http://localhost:3001/api/users
+
+{
+	"username": "jon",
+	"email": "jon@gmail.com",
+	"password": "password"
+}
+
+
+New Post
+POST
+http://localhost:3001/api/posts
+
+{
+  "title": "Runbuddy reaches 2 million subscribers",
+  "post_url": "http://www.runbuddy.com",
+  "user_id": 1
+}
+
+
+New Vote
+PUT
+http://localhost:3001/api/posts/upvote
+
+{
+  "user_id": 1,
+  "post_id": 1
+}
