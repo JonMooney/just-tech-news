@@ -1,0 +1,10 @@
+New Post
+
+Post Method
+http://localhost:3001/api/posts
+
+{
+  "title": "New post 1",
+  "post_url": "http://www.google.com",
+  "user_id": 1
+}
